@@ -166,7 +166,7 @@ body {
     letter-spacing: 0.04em;
     color: var(--color-iris);
     cursor: pointer;
-    padding: 12px 24pxж
+    padding: 12px 24px;
  }
 .button-link:hover,
 .button-link:focus {
