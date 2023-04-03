@@ -188,6 +188,7 @@ body {
 }
 .list-item {
     gap: 24px;
+    display: flex;
 }
 .item {
     width: 33%;
@@ -228,12 +229,14 @@ body {
 }
 
 .team {
+    padding: 120px 0;
     background-color: var(--color-cloud);
 
 }
 
 .bottom {
     background-color: var(--color-naviblue);
+    padding: 100px 0;
 }
 .name-footer {
     color: var(--color-cloud);
@@ -271,6 +274,7 @@ body {
     margin-bottom: 72px;
 }
 .list-item {
+    display: flex;
     background-color: var(--color-white);
 }
 
