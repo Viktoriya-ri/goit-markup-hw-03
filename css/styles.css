@@ -29,6 +29,7 @@ body {
 .list {
     list-style: none;
     display: flex;
+    gap: 40px;
 }
 
 /*Header*/
@@ -62,12 +63,9 @@ body {
     letter-spacing: 0.03em;
     margin-right: 76px;
 }
-.studio, .portfolio {
+.menu {
+    padding: 24px 0;
     margin: 24px 40px;
-}
-.contacts {
-
-    margin-top: 24px;
 }
 
 .nav-list {
