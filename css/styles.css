@@ -36,10 +36,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc
+}
+.div {
+    display: flex;
+    align-items: center;
 }
 .container {
-    box-sizing: 1158px;
-   
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
 }
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -49,20 +60,16 @@ body {
     text-transform: uppercase;
     color: var(--color-iris);
     letter-spacing: 0.03em;
-    display: flex;
-    flex-direction: row;
-    margin-top: 24px;
-    margin-left: 30px;
-    align-items: center;
+    margin-right: 76px;
 }
 .studio, .portfolio {
-    padding-right: 40px;
-    margin-top: 24px;
+    margin: 24px 40px;
 }
 .contacts {
-    padding-right: 332px;
+
     margin-top: 24px;
 }
+
 .nav-list {
     font-weight: 500;
     font-size: 16px;
