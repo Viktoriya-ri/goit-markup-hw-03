@@ -31,7 +31,9 @@ body {
     display: flex;
     gap: 40px;
 }
-
+.bloc {
+    display: block;
+}
 /*Header*/
 .page-header {
     display: flex;
