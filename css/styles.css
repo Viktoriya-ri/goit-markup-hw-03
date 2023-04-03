@@ -189,7 +189,9 @@ body {
 .list-item {
     gap: 24px;
 }
-
+.item {
+    width: 33%;
+}
 .fact-title {
    font-style: normal;
    font-weight: 500;
