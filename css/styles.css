@@ -12,6 +12,7 @@
     --color-grey: #2E2F42;
     --color-white: #FFFFFF;
 }
+
 body {
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
@@ -31,10 +32,15 @@ body {
     display: flex;
     gap: 40px;
     padding: 24px 0;
-    margin-right: auto;
+    margin-right: 40px;
 }
 .bloc {
     display: block;
+}
+.button-link,
+.button-link-p,
+.button-p {
+    cursor: pointer;
 }
 /*Header*/
 .page-header {
@@ -70,7 +76,7 @@ body {
 }
 .menu {
     padding: 24px 0;
-    margin: 24px 40px;
+    margin: 24px 0;
 }
 
 .nav-list {
@@ -79,6 +85,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-navi-blue-modal);
+    padding: 24px 0;
 }
 
 .header-logo:hover,.header-logo:focus {
@@ -93,8 +100,9 @@ body {
     font-style: normal;
 }
 .mailto {
-    padding-right: 40px;
+    padding: 24px 0;
     margin-top: 24px;
+
     color: var(--color-slate);
 }
 .tel {
@@ -102,17 +110,19 @@ body {
     height: 24px;
     left: 1133px;
     top: 24px;
-    margin-top: 24px;
+    padding: 24px 0;
+    margin: 24px 40px;
+    
     color: var(--color-slate);
 }
 .address {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-slate);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    color: var(--color-navi-blue-modal);
+    padding: 24px 0;
+    margin-right: 40px;
 }
 
 .link:hover,.link:focus {
@@ -135,7 +145,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--color-white);
 }
-
+.list-button {
+    width: 1158px;
+}
 .button-link {
     display: block;
     min-width: 169px;
@@ -151,22 +163,21 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-white);
-    cursor: pointer;
  } 
  .button-p {
     background-color: var(--color-cloud);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     border: 1px solid var(--color-cornflower);
-    margin: 356px 635px 188px 636px;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-iris);
-    cursor: pointer;
     padding: 12px 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
  }
 .button-link:hover,
 .button-link:focus {
@@ -258,7 +269,6 @@ body {
 }
 
 .button-link-p {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
