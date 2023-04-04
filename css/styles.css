@@ -244,6 +244,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--color-naviblue);
     text-transform: capitaliz;
+    text-align: center;
 }
 
 .team {
