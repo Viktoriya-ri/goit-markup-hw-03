@@ -338,3 +338,6 @@ body {
     row-gap: 48px;
     display: flex;
 }
+.our-work {
+    width: 33%;
+}
