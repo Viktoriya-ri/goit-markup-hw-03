@@ -26,14 +26,13 @@ body {
 /*reset*/
 .link {
     text-decoration: none;
+    color: currentColor;
 }
 .list {
     list-style: none;
     display: flex;
     gap: 40px;
     padding: 24px 0;
-    margin-right: 40px;
-  
 }
 .bloc {
     display: block;
@@ -81,7 +80,8 @@ body {
     margin: 24px 0;
 }
 
-.nav-list {
+.nav-list,
+.address {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -117,15 +117,7 @@ body {
     
     color: var(--color-slate);
 }
-.address {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-navi-blue-modal);
-    padding: 24px 0;
-    margin-right: 40px;
-}
+
 
 .link:hover,.link:focus {
     color: var(--color-ocean);
@@ -295,7 +287,7 @@ body {
 .container-team {
     padding-bottom: 120px;
 }
-.title-second_three_four {
+.title-secondtf {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
