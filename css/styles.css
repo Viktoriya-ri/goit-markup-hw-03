@@ -32,9 +32,7 @@ body {
     gap: 40px;
     padding: 24px 0;
     margin-right: 40px;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
+  
 }
 .bloc {
     display: block;
@@ -333,4 +331,10 @@ body {
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+}
+.list-work {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    display: flex;
 }
