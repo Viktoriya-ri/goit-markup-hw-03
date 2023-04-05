@@ -169,6 +169,7 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: 1px solid var(--color-cornflower);
     font-weight: 500;
+    border-radius: 4px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
