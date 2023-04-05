@@ -16,8 +16,7 @@
 body {
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
-        line-height: 24px;
-        /* or 171% */
+        line-height: 1,71;
         letter-spacing: 0.03em;
         color: var(--color-slate);
         background-color: var(--color-white);
@@ -192,8 +191,16 @@ body {
     background-color: var(--color-ocean);
 }
 .visually-hidden {
-    position: fixed;
-    transform: scale(0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .facts-container{
