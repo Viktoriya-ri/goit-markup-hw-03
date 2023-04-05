@@ -244,7 +244,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--color-slate);
     text-align: center;
-}
+ }
 
 .title-second {
     font-weight: 500;
@@ -337,4 +337,10 @@ body {
     column-gap: 24px;
     row-gap: 48px;
     display: flex;
+}
+.container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
