@@ -32,6 +32,9 @@ ul {
     padding: 0;
     list-style: none;
 }
+img {
+    
+}
 .link {
     text-decoration: none;
     color: currentColor;
