@@ -29,11 +29,7 @@ h3,
 p {
   margin: 0;
 }
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+
 
 .link {
   text-decoration: none;
@@ -44,6 +40,8 @@ ul {
   display: flex;
   flex-basis: calc((100% - 72px) / 4);
   gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 .card {
   display: block;
@@ -53,6 +51,7 @@ ul {
 .button-link,
 .button-link-p,
 .button-p {
+  color: currentColor;
   cursor: pointer;
 }
 .container {
