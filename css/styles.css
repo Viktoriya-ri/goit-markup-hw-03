@@ -44,7 +44,7 @@ img {
     display: flex;
     flex-basis: calc((100% - 72px) / 4);
     gap: 40px;
-    padding: 24px 0;
+ 
 }
 .bloc {
     display: block;
@@ -85,11 +85,10 @@ img {
     text-transform: uppercase;
     color: var(--color-iris);
     letter-spacing: 0.03em;
-    margin-right: 76px;
+    
 }
 .menu {
     padding: 24px 0;
-    margin: 24px 0;
 }
 
 .nav-list,
@@ -99,7 +98,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-navi-blue-modal);
-    padding: 24px 0;
+    
 }
 
 .header-logo:hover,.header-logo:focus {
@@ -114,20 +113,16 @@ img {
     font-style: normal;
 }
 .mailto {
-    padding: 24px 0;
-    margin-top: 24px;
+   
 
     color: var(--color-slate);
 }
 .tel {
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
-    top: 24px;
-    padding: 24px 0;
-    margin: 24px 40px;
-    
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
     color: var(--color-slate);
 }
 
@@ -244,13 +239,12 @@ img {
 }
 
 .fact-descr {
-    font-style: normal;
-    font-weight: 400;
+  
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
-    text-align: center;
+    
  }
 
 .title-second {
@@ -259,8 +253,8 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-naviblue);
-    text-transform: capitaliz;
-    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 8px;
 }
 
 .team {
