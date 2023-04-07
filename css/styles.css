@@ -62,7 +62,7 @@ img {
     justify-content: space-between;
     border-bottom: 1px solid #e7e9fc
 }
-.div {
+.header-container {
     display: flex;
     align-items: center;
 }
@@ -120,6 +120,7 @@ img {
     color: var(--color-slate);
 }
 .tel {
+    position: absolute;
     width: 151px;
     height: 24px;
     left: 1133px;
