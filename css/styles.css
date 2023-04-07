@@ -98,7 +98,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-navi-blue-modal);
-    
+    padding: 24px 0;
 }
 
 .header-logo:hover,.header-logo:focus {
@@ -239,12 +239,11 @@ img {
 }
 
 .fact-descr {
-  
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
-    
+    text-align: center;
  }
 
 .title-second {
