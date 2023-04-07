@@ -85,7 +85,7 @@ img {
     text-transform: uppercase;
     color: var(--color-iris);
     letter-spacing: 0.03em;
-    
+    margin-right: 76px;
 }
 .menu {
     padding: 24px 0;
