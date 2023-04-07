@@ -107,18 +107,14 @@ img {
 
 .name-header {
     color: var(--color-naviblue);
-
 }
 .page {
     font-style: normal;
 }
 .mailto {
-   
-
     color: var(--color-slate);
 }
 .tel {
-
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5px;
@@ -243,7 +239,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
-    text-align: center;
  }
 
 .title-second {
