@@ -55,6 +55,13 @@ ul {
 .button-p {
   cursor: pointer;
 }
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
 
 /*Header*/
 .page-header {
@@ -67,11 +74,7 @@ ul {
   display: flex;
   align-items: center;
 }
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -208,6 +211,7 @@ ul {
   width: 1158px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 .list-item {
   gap: 24px;
