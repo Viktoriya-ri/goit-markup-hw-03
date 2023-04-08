@@ -31,9 +31,10 @@ p {
 }
 
 img {
-  display: bloc;
+  display: block;
+  flex-wrap: wrap;
+  width: 100%;
 }
-  
 
 .link {
   text-decoration: none;
@@ -47,11 +48,7 @@ img {
   margin: 0;
   padding: 0;
 }
-.card {
-  display: block;
-  flex-wrap: wrap;
-  width: 100%;
-}
+
 .button-link,
 .button-link-p,
 .button-p {
@@ -209,18 +206,17 @@ img {
 
 .facts-container {
   padding: 120px 0;
-
 }
 .list-item {
   gap: 24px;
   display: flex;
 }
 .item {
-  width:  calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
   background-color: var(--color-white);
 }
 .item-three {
-  width:  calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
   background-color: var(--color-white);
 }
 .fact-title {
@@ -231,7 +227,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-naviblue);
   margin-bottom: 8px;
-  
 }
 
 .facts {
@@ -276,7 +271,6 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--color-cloud);
- 
 }
 
 .button-link-p {
@@ -312,7 +306,6 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .footer-logo {
- 
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -326,7 +319,7 @@ img {
 /*main portfolio*/
 .section-ptf {
   padding-top: 96px;
-  padding-bottom:  120px;
+  padding-bottom: 120px;
 }
 .list-button {
   display: flex;
