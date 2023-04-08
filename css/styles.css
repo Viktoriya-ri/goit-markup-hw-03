@@ -166,7 +166,6 @@ p {
 }
 .button-p {
   background-color: var(--color-cloud);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 1px solid var(--color-cornflower);
   font-weight: 500;
   border-radius: 4px;
@@ -206,18 +205,15 @@ p {
 
 .facts-container {
   padding: 120px 0;
-  gap: 24px;
-  width: 1158px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
+
 }
 .list-item {
   gap: 24px;
   display: flex;
 }
 .item {
-  width: 33%;
+  width:  calc((100% - 72px) / 4);
+  background-color: var(--color-white);
 }
 .fact-title {
   font-style: normal;
@@ -227,7 +223,7 @@ p {
   letter-spacing: 0.02em;
   color: var(--color-naviblue);
   margin-bottom: 8px;
-  text-align: center;
+  
 }
 
 .facts {
@@ -272,7 +268,7 @@ p {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--color-cloud);
-  margin: 16px 0 16px 30px;
+ 
 }
 
 .button-link-p {
@@ -308,7 +304,7 @@ p {
   border-radius: 0px 0px 4px 4px;
 }
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
+ 
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -316,12 +312,13 @@ p {
   color: var(--color-iris);
   letter-spacing: 0.03em;
   margin-bottom: 16px;
-  margin-left: 30px;
+
   display: inline-block;
 }
 /*main portfolio*/
 .section-ptf {
-  padding: 96px 120px;
+  padding-top: 96px;
+  padding-bottom:  120px;
 }
 .list-button {
   display: flex;
